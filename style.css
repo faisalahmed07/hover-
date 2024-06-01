@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.red,
+.blue,
+.green{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 150px;
+}
+
+
+.red:hover{
+    margin-top: 5px;
+    transition: 0.4s all ease;
+}
+
+.blue:hover{
+    margin-top: 5px;
+    transition: 0.4s all ease;
+}
+
+.green:hover{
+    margin-top: 20px;
+    transition: 0.4s all ease;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
